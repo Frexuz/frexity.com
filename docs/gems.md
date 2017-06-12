@@ -7,115 +7,119 @@ This is a list of:
 
 Create a new issue if you like to add a gem, and add it to the table below.
 
+:white_check_mark: = Currently used  
+:x: = Not used yet, should be added  
+:no_entry_sign: = Not applicable to project  
+
 ## Gems we should use
 
 ### Application gems
 
 | Name | Url | Description | StarTeam | Flately | Pollr | EpisodeCalendar |
 |--|--|--|--|--|--|--|
-| mini_magick | Url | Description | x | - | - | - |
-| mini_racer | Url | Description | x | - | - | - |
-| autoprefixer-rails | Url | Description | x | - | - | - |
-| jquery-rails | Url | Description | x | - | - | - |
-| modulejs-rails | Url | Description | x | - | - | - |
-| sassc-rails | Url | Description | x | - | - | - |
-| dalli | Url | Description | x | - | - | - |
-| hiredis | Url | Description | x | - | - | - |
-| redis-namespace | Url | Description | x | - | - | - |
-| sidekiq | Url | Description | x | - | - | - |
-| sidekiq-cron | Url | Description | x | - | - | - |
-| sidekiq-statistics | Url | Description | x | - | - | - |
-| sidekiq-unique-jobs | Url | Description | x | - | - | - |
-| activeadmin | Url | Description | x | - | - | - |
-| inherited_resources | Url | Description | x | - | - | - |
-| devise | Url | Description | x | - | - | - |
-| global | Url | Description | x | - | - | - |
-| route_translator | Url | Description | x | - | - | - |
-| turbolinks | Url | Description | x | - | - | - |
-| turboboost | Url | Description | x | - | - | - |
-| draper | Url | Description | x | - | - | - |
-| kaminari | Url | Description | x | - | - | - |
-| pagelet_rails | Url | Description | x | - | - | - |
-| pundit | Url | Description | x | - | - | - |
-| ransack | Url | Description | x | - | - | - |
-| rolify | Url | Description | x | - | - | - |
-| unread | Url | Description | x | - | - | - |
-| sentry-raven | Url | Description | x | - | - | - |
-| has_permalink | Url | Description | x | - | - | - |
-| activerecord-import | Url | Description | x | - | - | - |
-| contentful_model | Url | Description | x | - | - | - |
-| time_diff | Url | Description | x | - | - | - |
-| grape | Url | Description | x | - | - | - |
-| figaro | Url | Description | x | - | - | - |
-| receipts | Url | Description | x | - | - | - |
-| redcarpet | Url | Markdown parser | x | - | - | - |
-| rouge | Url | Syntax highlighter | x | - | - | - |
-| nokogiri | Url | Scraper | x | - | - | - |
-| amistad | Url | Friendship system | x | - | - | - |
-| split | Url | A/B testing | x | - | - | - |
-| thumbor_rails | Url | Description | x | - | - | - |
-| thumbs_up | Url | Description | x | - | - | - |
-| paper_trail | Url | Description | x | - | - | - |
+| mini_magick | Url | Description | :white_check_mark: | - | - | - |
+| mini_racer | Url | Description | :white_check_mark: | - | - | - |
+| autoprefixer-rails | Url | Description | :white_check_mark: | - | - | - |
+| jquery-rails | Url | Description | :white_check_mark: | - | - | - |
+| modulejs-rails | Url | Description | :white_check_mark: | - | - | - |
+| sassc-rails | Url | Description | :white_check_mark: | - | - | - |
+| dalli | Url | Description | :white_check_mark: | - | - | - |
+| hiredis | Url | Description | :white_check_mark: | - | - | - |
+| redis-namespace | Url | Description | :white_check_mark: | - | - | - |
+| sidekiq | Url | Description | :white_check_mark: | - | - | - |
+| sidekiq-cron | Url | Description | :white_check_mark: | - | - | - |
+| sidekiq-statistics | Url | Description | :white_check_mark: | - | - | - |
+| sidekiq-unique-jobs | Url | Description | :white_check_mark: | - | - | - |
+| activeadmin | Url | Description | :white_check_mark: | - | - | - |
+| inherited_resources | Url | Description | :white_check_mark: | - | - | - |
+| devise | Url | Description | :white_check_mark: | - | - | - |
+| global | Url | Description | :white_check_mark: | - | - | - |
+| route_translator | Url | Description | :white_check_mark: | - | - | - |
+| turbolinks | Url | Description | :white_check_mark: | - | - | - |
+| turboboost | Url | Description | :white_check_mark: | - | - | - |
+| draper | Url | Description | :white_check_mark: | - | - | - |
+| kaminari | Url | Description | :white_check_mark: | - | - | - |
+| pagelet_rails | Url | Description | :white_check_mark: | - | - | - |
+| pundit | Url | Description | :white_check_mark: | - | - | - |
+| ransack | Url | Description | :white_check_mark: | - | - | - |
+| rolify | Url | Description | :white_check_mark: | - | - | - |
+| unread | Url | Description | :white_check_mark: | - | - | - |
+| sentry-raven | Url | Description | :white_check_mark: | - | - | - |
+| has_permalink | Url | Description | :white_check_mark: | - | - | - |
+| activerecord-import | Url | Description | :white_check_mark: | - | - | - |
+| contentful_model | Url | Description | :white_check_mark: | - | - | - |
+| time_diff | Url | Description | :white_check_mark: | - | - | - |
+| grape | Url | Description | :white_check_mark: | - | - | - |
+| figaro | Url | Description | :white_check_mark: | - | - | - |
+| receipts | Url | Description | :white_check_mark: | - | - | - |
+| redcarpet | Url | Markdown parser | :white_check_mark: | - | - | - |
+| rouge | Url | Syntax highlighter | :white_check_mark: | - | - | - |
+| nokogiri | Url | Scraper | :white_check_mark: | - | - | - |
+| amistad | Url | Friendship system | :white_check_mark: | - | - | - |
+| split | Url | A/B testing | :white_check_mark: | - | - | - |
+| thumbor_rails | Url | Description | :white_check_mark: | - | - | - |
+| thumbs_up | Url | Description | :white_check_mark: | - | - | - |
+| paper_trail | Url | Description | :white_check_mark: | - | - | - |
 
 ### Development
 
 | Name | Url | Description | StarTeam | Flately | Pollr | EpisodeCalendar |
 |--|--|--|--|--|--|--|
-| annotate | Url | Description | x | - | - | - |
-| gem-shut-the-fuck-up | Url | Description | x | - | - | - |
-| i18n_yaml_sorter | Url | Description | x | - | - | - |
-| pry-rails | Url | Description | x | - | - | - |
-| fast_stack | Url | Description | x | - | - | - |
-| flamegraph | Url | Description | x | - | - | - |
-| rack-mini-profiler | Url | Description | x | - | - | - |
-| stackprof | Url | Description | x | - | - | - |
-| brakeman | Url | Description | x | - | - | - |
-| bullet | Url | Description | x | - | - | - |
-| byebug | Url | Description | x | - | - | - |
-| faker / ffaker | Url | Description | x | - | - | - |
-| letter_opener | Url | Description | x | - | - | - |
-| web-console | Url | Description | x | - | - | - |
-| spring | Url | Description | x | - | - | - |
-| spring-commands-rspec | Url | Description | x | - | - | - |
-| spring-commands-rubocop | Url | Description | x | - | - | - |
-| spring-watcher-listen | Url | Description | x | - | - | - |
-| listen | Url | Description | x | - | - | - |
-| jshint-rb | Url | Description | x | - | - | - |
-| reek | Url | Description | x | - | - | - |
-| rubocop | Url | Description | x | - | - | - |
-| rubocop-rspec | Url | Description | x | - | - | - |
-| scss_lint | Url | Description | x | - | - | - |
-| guard | Url | Description | x | - | - | - | 
-| guard-annotate | Url | Description | x | - | - | - | 
-| guard-brakeman | Url | Description | x | - | - | - | 
-| guard-bundler | Url | Description | x | - | - | - | 
-| guard-compat | Url | Description | x | - | - | - | 
-| guard-jshintrb | Url | Description | x | - | - | - | 
-| guard-livereload | Url | Description | x | - | - | - | 
-| guard-reek | Url | Description | x | - | - | - | 
-| guard-rubocop | Url | Description | x | - | - | - | 
-| guard-scss_lint | Url | Description | x | - | - | - | 
-| guard-yamlsort | Url | Description | x | - | - | - | 
-| rack-livereload | Url | Description | x | - | - | - | 
-| awesome_print | Url | Description | x | - | - | - |
-| better_errors | Url | Description | x | - | - | - |
-| binding_of_caller | Url | Description | x | - | - | - |
-| mina | Url | Description | x | - | - | - |
-| highline | Url | Password input for stdin | x | - | - | - |
-| i18n-tasks | Url | Description | x | - | - | - |
+| annotate | Url | Description | :white_check_mark: | - | - | - |
+| gem-shut-the-fuck-up | Url | Description | :white_check_mark: | - | - | - |
+| i18n_yaml_sorter | Url | Description | :white_check_mark: | - | - | - |
+| pry-rails | Url | Description | :white_check_mark: | - | - | - |
+| fast_stack | Url | Description | :white_check_mark: | - | - | - |
+| flamegraph | Url | Description | :white_check_mark: | - | - | - |
+| rack-mini-profiler | Url | Description | :white_check_mark: | - | - | - |
+| stackprof | Url | Description | :white_check_mark: | - | - | - |
+| brakeman | Url | Description | :white_check_mark: | - | - | - |
+| bullet | Url | Description | :white_check_mark: | - | - | - |
+| byebug | Url | Description | :white_check_mark: | - | - | - |
+| faker / ffaker | Url | Description | :white_check_mark: | - | - | - |
+| letter_opener | Url | Description | :white_check_mark: | - | - | - |
+| web-console | Url | Description | :white_check_mark: | - | - | - |
+| spring | Url | Description | :white_check_mark: | - | - | - |
+| spring-commands-rspec | Url | Description | :white_check_mark: | - | - | - |
+| spring-commands-rubocop | Url | Description | :white_check_mark: | - | - | - |
+| spring-watcher-listen | Url | Description | :white_check_mark: | - | - | - |
+| listen | Url | Description | :white_check_mark: | - | - | - |
+| jshint-rb | Url | Description | :white_check_mark: | - | - | - |
+| reek | Url | Description | :white_check_mark: | - | - | - |
+| rubocop | Url | Description | :white_check_mark: | - | - | - |
+| rubocop-rspec | Url | Description | :white_check_mark: | - | - | - |
+| scss_lint | Url | Description | :white_check_mark: | - | - | - |
+| guard | Url | Description | :white_check_mark: | - | - | - | 
+| guard-annotate | Url | Description | :white_check_mark: | - | - | - | 
+| guard-brakeman | Url | Description | :white_check_mark: | - | - | - | 
+| guard-bundler | Url | Description | :white_check_mark: | - | - | - | 
+| guard-compat | Url | Description | :white_check_mark: | - | - | - | 
+| guard-jshintrb | Url | Description | :white_check_mark: | - | - | - | 
+| guard-livereload | Url | Description | :white_check_mark: | - | - | - | 
+| guard-reek | Url | Description | :white_check_mark: | - | - | - | 
+| guard-rubocop | Url | Description | :white_check_mark: | - | - | - | 
+| guard-scss_lint | Url | Description | :white_check_mark: | - | - | - | 
+| guard-yamlsort | Url | Description | :white_check_mark: | - | - | - | 
+| rack-livereload | Url | Description | :white_check_mark: | - | - | - | 
+| awesome_print | Url | Description | :white_check_mark: | - | - | - |
+| better_errors | Url | Description | :white_check_mark: | - | - | - |
+| binding_of_caller | Url | Description | :white_check_mark: | - | - | - |
+| mina | Url | Description | :white_check_mark: | - | - | - |
+| highline | Url | Password input for stdin | :white_check_mark: | - | - | - |
+| i18n-tasks | Url | Description | :white_check_mark: | - | - | - |
 
 ### Testing
 
 | Name | Url | Description | StarTeam | Flately | Pollr | EpisodeCalendar |
 |--|--|--|--|--|--|--|
-| database_cleaner | Url | Description | x | - | - | - | 
-| factory_girl_rails | Url | Description | x | - | - | - | 
-| fuubar | Url | Description | x | - | - | - | 
-| guard-rspec | Url | Description | x | - | - | - | 
-| rspec-rails | Url | Description | x | - | - | - | 
-| shoulda-matchers | Url | Description | x | - | - | - | 
-| simplecov | Url | Description | x | - | - | - | 
-| i18n-spec | Url | Description | x | - | - | - |
+| database_cleaner | Url | Description | :white_check_mark: | - | - | - | 
+| factory_girl_rails | Url | Description | :white_check_mark: | - | - | - | 
+| fuubar | Url | Description | :white_check_mark: | - | - | - | 
+| guard-rspec | Url | Description | :white_check_mark: | - | - | - | 
+| rspec-rails | Url | Description | :white_check_mark: | - | - | - | 
+| shoulda-matchers | Url | Description | :white_check_mark: | - | - | - | 
+| simplecov | Url | Description | :white_check_mark: | - | - | - | 
+| i18n-spec | Url | Description | :white_check_mark: | - | - | - |
 
 ## Gems we should look into adding
 
