@@ -21,6 +21,31 @@ def hello(name)
 end
 ```
 
+## Method names
+
+Don't use predicate words like `get`, `set`, and `is`
+
+```
+# Bad
+def get_user(user_id)
+  # ..
+end
+
+def is_admin(user)
+  # ..
+end
+
+# Good
+def user_by_id(id)
+  # ..
+end
+
+# Good
+def admin?(user)
+  # ..
+end
+```
+
 ## Spacing
 
 Always use spaces before/after closing ruby tags.
