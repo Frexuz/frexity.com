@@ -5,6 +5,8 @@ This is a list of:
 - Gems we think we should try that will help productivity, or improve code.
 - Gems that are community standard (or "best in class") for a perticular area/problem.
 
+Create a new issue if you like to add a gem, and add it to the table below.
+
 ## Gems we should use
 
 ### Application gems
@@ -97,15 +99,15 @@ This is a list of:
 
 Each of these gems should get its own issue for discussion and for tracking progress.
 
-| Name | Url | Description | StarTeam | Flately | Pollr | EpisodeCalendar |
-|--|--|--|--|--|--|--|
-| sidekiq-limit_fetch | Url | Description | - | - | - | - |
-| sidekiq-failures | Url | Description | - | - | - | - |
-| sidekiq-status | Url | Description | - | - | - | - |
-| sidekiq-benchmark | Url | Description | - | - | - | - |
-| slackiq | Url | Description | - | - | - | - |
-| sidekiq-promise | Url | Description | - | - | - | - |
-| mountain_view | Url | Description | - | - | - | - |
-| redis_dashboard | Url | Description | - | - | - | - |
-| mountain_view | Url | Description | - | - | - | - |
-| acli | Url | Action Cable CLI | - | - | - | - |
+| Name | Url | Description | Issue # |
+|--|--|--|--|
+| sidekiq-limit_fetch | Url | Description | - |
+| sidekiq-failures | Url | Description | - |
+| sidekiq-status | Url | Description | - |
+| sidekiq-benchmark | Url | Description | - |
+| slackiq | Url | Description | - |
+| sidekiq-promise | Url | Description | - |
+| mountain_view | Url | Description | - |
+| redis_dashboard | Url | Description | - |
+| mountain_view | Url | Description | - |
+| acli | Url | Action Cable CLI | - |
