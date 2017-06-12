@@ -41,6 +41,21 @@ Create a new issue if you like to add a gem, and add it to the table below.
 | rolify | Url | Description | x | - | - | - |
 | unread | Url | Description | x | - | - | - |
 | sentry-raven | Url | Description | x | - | - | - |
+| has_permalink | Url | Description | x | - | - | - |
+| activerecord-import | Url | Description | x | - | - | - |
+| contentful_model | Url | Description | x | - | - | - |
+| time_diff | Url | Description | x | - | - | - |
+| grape | Url | Description | x | - | - | - |
+| figaro | Url | Description | x | - | - | - |
+| receipts | Url | Description | x | - | - | - |
+| redcarpet | Url | Markdown parser | x | - | - | - |
+| rouge | Url | Syntax highlighter | x | - | - | - |
+| nokogiri | Url | Scraper | x | - | - | - |
+| amistad | Url | Friendship system | x | - | - | - |
+| split | Url | A/B testing | x | - | - | - |
+| thumbor_rails | Url | Description | x | - | - | - |
+| thumbs_up | Url | Description | x | - | - | - |
+| paper_trail | Url | Description | x | - | - | - |
 
 ### Development
 
@@ -82,6 +97,12 @@ Create a new issue if you like to add a gem, and add it to the table below.
 | guard-scss_lint | Url | Description | x | - | - | - | 
 | guard-yamlsort | Url | Description | x | - | - | - | 
 | rack-livereload | Url | Description | x | - | - | - | 
+| awesome_print | Url | Description | x | - | - | - |
+| better_errors | Url | Description | x | - | - | - |
+| binding_of_caller | Url | Description | x | - | - | - |
+| mina | Url | Description | x | - | - | - |
+| highline | Url | Password input for stdin | x | - | - | - |
+| i18n-tasks | Url | Description | x | - | - | - |
 
 ### Testing
 
@@ -94,6 +115,7 @@ Create a new issue if you like to add a gem, and add it to the table below.
 | rspec-rails | Url | Description | x | - | - | - | 
 | shoulda-matchers | Url | Description | x | - | - | - | 
 | simplecov | Url | Description | x | - | - | - | 
+| i18n-spec | Url | Description | x | - | - | - |
 
 ## Gems we should look into adding
 
