@@ -34,6 +34,24 @@ app_bar.scss
 app_bar.css.scss
 ```
 
+## Variable names
+
+Always use descriptive names, in any language.
+
+```
+# Bad
+q = params[:q]
+
+# Bad
+val = $input.val();
+
+# Good
+search_query = params[:q]
+
+# Good
+inputValue = $input.val();
+```
+
 ## Github
 
 Always name branches with format `issX-some-name`. X is the issue number.
