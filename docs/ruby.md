@@ -98,3 +98,27 @@ Use spaces around operations
 # Good
 (order.price * order.units) * 1.25
 ```
+
+## Guards / returns
+
+Always use a **guard** and return early, rather than using returning code paths inside conditionals.
+
+```
+# Bad
+def filter(query)
+  if query
+    process_query(query)
+  else
+    query = []
+  end
+end
+
+# Good
+def filter(query)
+  # Guard
+  return [] unless query
+  
+  # Normal code path
+  process_query(query)
+end
+```
