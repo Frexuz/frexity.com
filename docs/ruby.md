@@ -122,3 +122,32 @@ def filter(query)
   process_query(query)
 end
 ```
+
+## PORO - Plain Old Ruby Classes
+
+Always use for **Services**, **Queries** and similar helper classes.
+
+Example:
+```
+class FilterService
+
+  def initialize(query)
+    @query = query
+  end
+
+  def filter
+    # .. do stuff with @query
+  end
+
+end
+
+Usage:
+
+@filter_service = FilterService.new(params[:q]) <- reusable object
+@filter_service.filter # execute the filter
+@filter_service.query # check the current query value
+
+or just
+
+@filter_results = FilterService.new(params[:q]).filter
+```
