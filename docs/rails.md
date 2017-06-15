@@ -28,3 +28,24 @@ class EmployeeIndexQuery
 
 end
 ```
+
+Exception: For `.find` queries, use this pattern:
+
+```
+# Bad
+def update
+  @department = DepartmentIdQuery.new.results(params[:department_id])
+  @department.save
+end
+
+# Good
+def update
+  department.assign_attributes(department_params)
+end
+
+private
+
+def department
+  @department ||= @current_company.departments.find(params[:id])
+end
+```
