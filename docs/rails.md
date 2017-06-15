@@ -46,6 +46,6 @@ end
 private
 
 def department
-  @department ||= @current_company.departments.find(params[:id])
+  @department ||= Department.find(params[:id])
 end
 ```
