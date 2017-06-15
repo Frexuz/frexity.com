@@ -49,3 +49,13 @@ def department
   @department ||= Department.find(params[:id])
 end
 ```
+
+Always use scoped queries for relations
+
+```
+# Bad
+@department = Department.find(params[:id])
+
+# Good
+@department = current_company.departments.find(params[:id])
+```
