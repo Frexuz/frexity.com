@@ -42,14 +42,39 @@ Always use descriptive names, in any language.
 # Bad
 q = params[:q]
 
+# Good
+search_query = params[:q]
+
 # Bad
 val = $input.val();
 
 # Good
-search_query = params[:q]
+inputValue = $input.val();
+
+# Bad
+@users.map_with_index do |user, i|
 
 # Good
-inputValue = $input.val();
+@users.map_with_index do |user, index|
+
+# Bad
+@users.map { |u| ...
+
+# Good 
+@users.map { |user| ...
+```
+
+Exceptions, these are good:
+
+```
+Rails forms
+form_for @user do |f|
+
+Rails migrations
+create_table :users do |t|
+
+JavaScript loops
+for (var i = 0; ...
 ```
 
 ## Github
