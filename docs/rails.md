@@ -2,6 +2,10 @@
 
 Specific guidelines for how we code Rails.
 
+## List of stuff you should know as your second language :D
+
+- Inflections: http://api.rubyonrails.org/classes/ActiveSupport/Inflector.html
+
 ## Queries
 
 Always use query classes. These classes should only have a `results` method, and only use `ActiveRecord` to query data. No other business logic unless really necessary.
