@@ -1,5 +1,10 @@
 # Ruby guidelines
 
+## List of stuff you should know as your second language :D
+
+- Array methods: https://ruby-doc.org/core-2.2.0/Array.html
+- Hash methods: https://ruby-doc.org/core-2.4.0/Hash.html
+
 ## Using keyword arguments
 
 Using named arguments when there is more than one argument
