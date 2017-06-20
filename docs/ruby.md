@@ -51,6 +51,16 @@ def admin?(user)
 end
 ```
 
+Name it `_count` for it is a number.
+
+```
+# Bad
+@required_photos = @property.total_rooms
+
+# Good
+@required_photos_count = @property.rooms_count`
+```
+
 ## Spacing
 
 Always use spaces before/after closing ruby tags.
